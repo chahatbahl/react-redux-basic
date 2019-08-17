@@ -1,35 +1,23 @@
 import React, { Component } from 'react';
-import './App.css';
-
-import { connect } from 'react-redux';
-import { defaultFunction } from './actions';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
+import HomeComponent from './components/homeComponent/';
+import HeaderComponent from './components/headerComponent';
 
 class App extends Component {
-
-  componentDidMount() {
-    this.props.dispatch(defaultFunction('Hello'));
-  }
-
   render() {
     return (
-      <div>
-        {this.props.default}Chahat
-      </div>
+      <Router>
+        <div>
+          <HeaderComponent></HeaderComponent>
+          <Route exact path='/' component={HomeComponent}></Route>
+        </div>
+      </Router>
     );
   }
 }
 
-// function to convert the global state obtained from redux to local props
-function mapStateToProps(state) {
-  console.log('chahat---------------', state);
-  return {
-    default: state.default === 'Helglo' ? 'Here ' : 'Yo '
-  };
-}
-const mapDispatchToProps = dispatch => {
-  return {
-    dispatch
-  };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;

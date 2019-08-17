@@ -1,7 +1,9 @@
 // basic react component starting template
 import React, { Component } from 'react';
+import './style.less';
 
-class ChahatComponent extends Component {
+class HomeComponent extends Component {
+
     render() {
         return (
             <div>Some Data</div>
@@ -9,4 +11,4 @@ class ChahatComponent extends Component {
     }
 }
 
-export default ChahatComponent;
+export default HomeComponent;
