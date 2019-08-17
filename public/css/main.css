@@ -1,0 +1,509 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "museoSans_500";
+    src: url(museoSans_500.otf);
+    /* src: url(museo_700.otf); */
+}
+
+body {
+    background-color: #fff;
+    font-family: "museoSans_500";
+    font-size: 13px;
+    line-height: 23px;
+    color: #555;
+    font-weight: 400;
+    position: relative;
+    overflow-x: hidden;
+}
+.whitecolor {
+    color: #fff;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1280px;
+    max-width: 100%;
+}
+}
+.no-padding
+{
+  padding: 0;
+}
+.graycolor
+{
+    color: #9b9b9b;
+}
+/*==== Padding CSS ====*/
+.pr-0 {
+    padding-right: 0;
+}
+.p-10 {
+    padding: 10px;
+}
+
+.ptb-7 {
+    padding: 7px 0;
+}
+
+.ptb-10 {
+    padding: 10px 0;
+}
+
+.ptb-20 {
+    padding: 20px 0;
+}
+
+.ptb-30 {
+    padding: 30px 0;
+}
+
+.ptb-40 {
+    padding: 40px 0;
+}
+
+.ptb-50 {
+    padding: 50px 0;
+}
+
+.ptb-60 {
+    padding: 60px 0;
+}
+
+.ptb-70 {
+    padding: 70px 0;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.ptb-90 {
+    padding: 90px 0;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+
+/*==== Margin CSS ====*/
+
+.mtb-10 {
+    margin: 10px 0;
+}
+
+.mtb-20 {
+    margin: 20px 0;
+}
+
+.mtb-30 {
+    margin: 30px 0;
+}
+
+.mtb-40 {
+    margin: 40px 0;
+}
+
+.mtb-50 {
+    margin: 50px 0;
+}
+
+.mtb-60 {
+    margin: 60px 0;
+}
+
+.mtb-70 {
+    margin: 70px 0;
+}
+
+.mtb-80 {
+    margin: 80px 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-90 {
+    margin-bottom:90px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.va-middle {
+    vertical-align: middle;
+}
+
+.bg-gray {
+    background: #f5f7fa;
+}
+
+.bg-blue {
+    background: #0879c9;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-black {
+    background: #232f3e;
+}
+
+.bg-orange {
+    background: #ff6a00;
+}
+
+.bg-yellow {
+    background: #ffc833;
+}
+
+.bg-brown {
+    background: #e54545;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #333;
+}
+
+p {
+    line-height: 18px;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.at-fontweight {
+    font-weight: normal;
+}
+
+.pl-col {
+    padding-left: 0;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-tabs >li>a {
+    margin-right: 0;
+    border-radius: 0;
+    background: #24242c;
+    padding: 10px 20px;
+    border: 0;
+    letter-spacing: 1;
+    color: #b9b9b9;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav-tabs>li>a:hover {
+    background: #8c8f96;
+    color: #fff;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: #868C93;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0;
+}
+.navbar {
+    clear: both;
+}
+.form-control {
+    height: 55px;
+}
+.navbar-brand > img {
+    display: block;
+    max-width: 287px;
+    max-height: 75px;
+}
+.navbar-brand-name {
+    color: #004684;
+    margin-top: 20px;
+    display: inherit;
+    font-weight: bold;
+}
+.navmenu .menubar-nav:last-child .menubar-link, .topbar .topbar-list:last-child {
+    padding-right: 0;
+}
+.navbar-nav .menubar-nav .menubar-link:hover {
+    color: #ff7b3a;
+}
+
+.error {
+    color: #DC143C;
+    clear: both;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.err-border {
+    border-bottom: 1px solid #DC143C !important;	
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+.al-leftbgcolor::-webkit-scrollbar-thumb {
+    background-color: #999;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #999;
+}
+/*+++++++++toast-notification+++++++++++*/
+
+.toast-notification{width:100%!important}
+.toast-notification span{width:100%!important}
+
+
+.inner_content-modal {
+    background: #fff;
+    padding: 20px 40px 0;
+    width: 600px;
+    margin: 0px auto;
+    border-radius: 6px;
+}
+.submit-btn-confirm {
+    background: #ff7b39;
+    padding: 8px 10px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    min-width: 150px;
+    box-shadow: inset 0px -2px 4px 0 rgba(0, 0, 0, 0.11);
+    text-align: center;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase
+}
+
+.submit-btn-confirm:hover {
+    color: white;
+    transform: scale(1.05);
+    background: #124378;
+    border-color: #124378;
+}
+/*======== Media Query for Mobile site ========*/
+@media only screen and (max-width: 980px) {
+    .container {
+      width: 100%;
+    }
+    .al-selist li {
+        margin-right: 10px !important;
+    }
+    .al-selist li span {
+        font-size: 10px !important;
+    }
+    .al-selist li i {
+        font-size: 15px !important;
+    }
+    .al-modibtn{
+        padding: 8px 6px !important;
+        font-size: 10px;
+    }
+    .ar-slidelist li {
+        margin: 0 8px;
+    }
+    .ar-slidelist li::after {
+        right: -8px !important;
+    }
+    .ars-listair li img{
+        width: 25px !important;
+    }
+    .ars-lastre {
+        font-size: 12px;
+    }
+    .asr-book, .asr-viewbtn, .ars-setal {
+        padding: 6px 8px !important;
+        font-size: 12px;
+    }
+    .al-stopslist li a{
+        width: 45px !important;
+        font-size: 13px;
+    }
+    .ars-mobcss {
+        width: 88px;
+        font-size: 12px;
+    }
+    .col-item {
+        min-height: 324px !important;
+    }
+    .at-nodetails {
+        margin: 0 0 0 5px !important;
+    }
+    .art-newnoti{
+        margin-left: 0 !important;
+    }
+    .art-notipara {
+        font-size: 11px !important;
+    }
+    .apt-flightids {
+        width: 90px !important;
+    
+    }
+    .ars-tabcontent p {
+        font-size: 12px !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 979px) { 
+    .container {
+        width: 100%;
+      }
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: auto;
+    }
+    .inner_content-modal{
+        width: 300px;
+    }
+}
